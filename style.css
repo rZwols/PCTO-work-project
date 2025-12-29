@@ -10,6 +10,7 @@ body {
 }
 body {
     font-family: monospace;
+    background-color: rgb(13, 13, 13);
 }
 header {
     overflow: hidden;
@@ -24,12 +25,13 @@ header {
 .title {
     /* sizes */
     height: 90%;
-    width: 58%;
+    width: 54%;
     padding: 0;
-    margin: 3% 2%;
-    border: 1px solid black;
+    margin: 3% 1%;
+    border: 0px solid rgb(225, 225, 225);
     /* text */
-    font-size: 200px;
+    color: rgb(225, 225, 225);
+    font-size: 220px;
     font-weight: bold;
     /* layout */
     float: left;
@@ -38,36 +40,52 @@ header {
     justify-content: center;
     align-items: center;
 }
-p.quote {
+.right_side {
     /* sizes */
-    height: 48%;
-    width: 30%;
+    height: 90%;
+    width: 38%;
     padding: 0;
-    margin: 3% 2%;
-    border: 1px solid black;
-    /* text */
-    font-size: 35px;
-    text-decoration: none;
+    margin: 3% 1%;
+    border: 0 solid rgb(225, 225, 225);
     /* layout */
     float: left;
-    border-radius: 2%;
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-a.button {
+.quote {
     /* sizes */
-    height: 30%;
-    width: 30%;
+    height: 64%;
+    width: 100%;
     padding: 0;
-    margin: 3% 2%;
-    border: 1px solid black;
+    margin: 0 0 7% 0;
+    border: 3px solid rgb(208, 208, 208);
     /* text */
-    font-size: 70px;
+    color: rgb(225, 225, 225);
+    font-size: 40px;
+    /* layout */
+    float: left;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    /* sizes */
+    height: 20%;
+    width: 100%;
+    padding: 0;
+    margin: 3% 0;
+    border: 0px solid rgb(0, 0, 0);
+    /* text */
+    background-color: rgb(243, 60, 60);
+    color: rgb(225, 225, 225);
+    font-size: 85px;
     text-decoration: none;
     /* layout */
     float: left;
-    border-radius: 2%;
+    border-radius: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
